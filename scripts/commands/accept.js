@@ -2,11 +2,11 @@ module.exports.config = {
   name: "accept",
   version: "1.0.0",
   permission: 2,
-  credits: "ryuko",
+  credits: "Emon",
   prefix: true,
   description: "make friends via facebook id",
   category: "admin",
-  usages: "uid",
+  usages: "accept (uid)",
   cooldowns: 5
 };  
 
@@ -99,7 +99,7 @@ module.exports.run = async ({ event, api }) => {
     msg += (`\n${i}.\nname : ${user.node.name}`
          + `\nid : ${user.node.id}`
          + `\nurl : ${user.node.url.replace("www.facebook", "fb")}`
-         + `\ntime : ${moment(user.time*1009).tz("Asia/Manila").format("DD/MM/YYYY HH:mm:ss")}\n`);
+         + `\ntime : ${moment(user.time*1009).tz("Asia/Dhaka").format("DD/MM/YYYY HH:mm:ss")}\n`);
   }
   api.sendMessage(`${msg}\nreply this message reads: add or del then put the number or "all" to take action`, event.threadID, (e, info) => {
       global.client.handleReply.push({
