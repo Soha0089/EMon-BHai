@@ -2,11 +2,11 @@ module.exports.config = {
   name: "help",
   version: "1.0.2",
   permission: 0,
-  credits: "ryuko",
+  credits: "EMON",
   description: "beginner's guide",
-  prefix: true,
-  category: "guide",
-  usages: "[command name]",
+  prefix: 'awto',
+  category: "user",
+  usages: "help [command name]",
   cooldowns: 5,
   envConfig: {
 		autoUnsend: false,
@@ -17,7 +17,7 @@ module.exports.config = {
 module.exports.languages = {
   en: {
     moduleInfo:
-      "「 %1 」\n%2\n\n❯ usage : %3\n❯ category : %4\n❯ waiting time : %5 seconds(s)\n❯ permission : %6\n\n» module code by Emon",
+      "「 %1 」\n%2\n\n❯ usage : %3\n❯ category : %4\n❯ waiting time : %5 seconds(s)\n❯ permission : %6\n\n» module code by EMon-BHai",
     helpList:
       `➤ there are %1 commands & %2 categories\n\n╭ ───«~»─── ╮
 │          GUIDE         │
