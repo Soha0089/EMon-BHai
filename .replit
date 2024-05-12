@@ -1,4 +1,4 @@
-hidden = ["package-lock.json", "package.json", "Emon"]
+hidden = ["package-lock.json", "package.json", "ryuko"]
 language = "bash"
 run = "npm start"
 
