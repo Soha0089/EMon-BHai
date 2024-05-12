@@ -1,0 +1,19 @@
+hidden = ["package-lock.json", "package.json", "ryuko"]
+language = "bash"
+run = "npm start"
+
+[[ports]]
+localPort = 35835
+externalPort = 3001
+
+[[ports]]
+localPort = 37491
+externalPort = 3000
+
+[[ports]]
+localPort = 42935
+externalPort = 3002
+
+[[ports]]
+localPort = 43029
+externalPort = 80
