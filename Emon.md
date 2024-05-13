@@ -5,7 +5,8 @@ age : ```23```</br>
 link : [Facebook](https://www.facebook.com/EMon.BHai.FACEBOOK).</br>
 
 ## CREDITS
-
+## DEVELOPER ryuko
+## MODIFY ( EMON HAWLADAR )
 
 modified : [Emon](https://replit.com/@sharifvau4) by ```EMON HAWLADAR```
 
