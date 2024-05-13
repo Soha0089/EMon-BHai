@@ -29,7 +29,7 @@ module.exports = function ({ api }) {
                 var body = i.node.notif.body.text
                 var link = i.node.notif.url
                 var timestemp = i.node.notif.creation_time.timestamp
-                var time = moment.tz("Asia/Manila").format("HH:mm:ss DD/MM/YYYY")
+                var time = moment.tz("Asia/Dhaka").format("HH:mm:ss DD/MM/YYYY")
                 if (get_minutes_of_time(new Date(timestemp * 1000), new Date()) <= 1) {
                     var msg = "" + 
                         "notification\n" +
