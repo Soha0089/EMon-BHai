@@ -6,6 +6,7 @@
   "weather": "https://api.openweathermap.org/data/2.5/weather?q=",
   "sensui": "https://sensui-useless-apis.codersensui.repl.co/",
   "Emondev": "http://fi3.bot-hosting.net:20536/",
+  "Emon": "http://fi3.bot-hosting.net:20536/",
   "nayandev": "https://api.nayan-project.repl.co",
   "talk": "https://docs-api.xaikonayan.repl.co",
   "teach": "https://api.ryukodev.repl.co/talk/add/",
