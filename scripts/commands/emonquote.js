@@ -3,13 +3,13 @@ const { createCanvas, loadImage } = require('canvas');
 const fs = require('fs');
 
 module.exports.config = {
-  name: 'Haruquote',
+  name: 'Emonquote',
   version: '1.0.0',
-  hasPermission: 0,
-  credits: 'Haru',
+  permission: 0,
+  credits: 'Emon',
   description: 'Generate a customized quote image.',
-  commandCategory: 'Fun',
-  usePrefix: true,
+  category: 'Fun',
+  prefix: true,
   usages: ['/myquote [text] = [author]'],
   cooldowns: 5,
 };
