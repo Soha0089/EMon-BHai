@@ -3,7 +3,7 @@
   "developermode": false,
   "language": "en",
   "notification": true,
-  "approval": true,
+  "approval": false,
   "OPERATORNAME": "EMON HAWLADAR",
   "OPERATORID": "100075290587473",
   "OPERATORLINK": "https://www.facebook.com/EMon.BHai.FACEBOOK",
