@@ -4,7 +4,7 @@ module.exports.config = {
     permission: 0,
     credits: "Emon",
     prefix: 'awto',
-    description: "",
+    description: "Admin Information",
     category: "admin",
     usages: "info",
     cooldowns: 5,
