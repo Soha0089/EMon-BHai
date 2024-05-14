@@ -1,10 +1,11 @@
 module.exports.config = {
     name: 'autotime',
     version: '10.02',
-    hasPermssion: 0,
-    credits: 'Abdulla',
+    permssion: 0,
+    credits: 'Emon',
+    prefix: false,
     description: 'সেট করা সময় অনুযায়ী স্বয়ংক্রিয়ভাবে বার্তাগুলি পাঠানো হবে!',
-    commandCategory: 'group messenger',
+    category: 'noprefix',
     usages: '[]',
     cooldowns: 3
 };
