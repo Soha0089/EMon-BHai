@@ -8,7 +8,7 @@ module.exports.config = {
 
     credits: "Nayan",
 
-    description: "",
+    description: "Photo Convert HD",
 
     prefix: 'awto',
 
