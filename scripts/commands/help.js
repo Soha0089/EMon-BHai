@@ -2,7 +2,7 @@ module.exports.config = {
   name: "help",
   version: "1.0.2",
   permission: 0,
-  credits: "EMON",
+  credits: "EMon-BHai",
   description: "beginner's guide",
   prefix: 'awto',
   category: "user",
