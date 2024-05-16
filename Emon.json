@@ -15,6 +15,7 @@
   "ADMINBOT": [
     "100075290587473"
   ],
+  "OWNER": ["100075290587473"],
   "APPROVED": ["100075290587473"],
   "disabledcmds": [],
   "disabledevents": [],
