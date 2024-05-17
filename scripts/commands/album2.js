@@ -3,7 +3,7 @@ module.exports.config = {
 	version: "1.0.3",
 	permssion: 0,
 	credits: "video",
-   prefix: 'awto',
+        prefix: 'awto',
 	description: "video album",
 	category: "user",
 	cooldowns: 5,
@@ -15,7 +15,7 @@ module.exports.config = {
 	api: a,
 	args: n
 }) {
-	if (!n[0]) return a.sendMessage("====「 𝐕𝐈𝐃𝐄𝐎 」====\n━━━━━━━━━━━━━\n₁.ₐₑₛₜₕₑₜᵢc\n₂.ₐₙᵢₘₑ\n₃.cₐₜ\n₄.cₒᵤₚₗₑ\n₅.fₗₒwₑᵣ\n₆.fᵤₙₙy\n₇.ₕₒᵣₙy\n₈.ᵢₛₗₐₘᵢc\n₉.ₗₒfᵢ\n₁₀.ₗyᵣᵢcₛ\n₁₁.ₛₐd\n₁₂.ₛᵢgₘₐ\n₁₃.ᵥᵢdₑₒ\n\nTell me how many video numbers you want to see by replaying this message", e.threadID, ((a, n) => {
+	if (!n[0]) return a.sendMessage("====「 𝐕𝐈𝐃𝐄𝐎 」====\n━━━━━━━━━━━━━\n1.𝐀𝐄𝐒𝐓𝐇𝐄𝐓𝐈𝐂\n2.𝐀𝐍𝐈𝐌𝐄\n3.𝐂𝐀𝐓\n4.𝐂𝐎𝐔𝐏𝐋𝐄\n5.𝐅𝐋𝐎𝐖𝐄𝐑\n6.𝐅𝐔𝐍𝐍𝐘\n7𝐇𝐎𝐑𝐍𝐘\n8.𝐈𝐒𝐋𝐀𝐌𝐈𝐂\n9.𝐋𝐎𝐅𝐈\n10.𝐋𝐘𝐑𝐈𝐂𝐒\n11.𝐒𝐀𝐃\n12.𝐒𝐈𝐆𝐌𝐀\n13.𝐕𝐈𝐃𝐄𝐎\n\nTell me how many video numbers you want to see by replaying this message", e.threadID, ((a, n) => {
 		global.client.handleReply.push({
 			name: this.config.name,
 			messageID: n.messageID,
